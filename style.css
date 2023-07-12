@@ -1,0 +1,606 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.nav {
+  width: 90%;
+  display: flex;
+  margin-left: 5%;
+  align-items: center;
+  justify-content: space-between;
+  height: 55px;
+
+}
+.logo {
+  display: flex;
+  width: 10%;
+  justify-content: space-between;
+}
+#logo-img {
+  height: 40px;
+  width: 38px;
+  background-color: black;
+  border: 3px solid black;
+  border-radius: 50%;
+  position: relative;
+  top: 5px;
+}
+#logo-text {
+  font-weight: 600;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 11px;
+}
+#light {
+  font-size: 7px;
+  font-weight: 100;
+  position: relative;
+  bottom: 3px;
+}
+.quick-links {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  font-size: 10px;
+  font-weight: 600;
+}
+#contact {
+  border: 2px solid black;
+  border-radius: 40px;
+  padding: 4px;
+  position: relative;
+  bottom: 4px;
+}
+
+/* header */
+header {
+  width: 90%;
+  height: 500px;
+  background: rgb(231, 238, 238);
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5%;
+}
+.header-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 5%;
+}
+.hello {
+ 
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(110, 107, 107);
+  font-size: 30px;
+}
+.name {
+  font-size: 60px;
+}
+.header-light {
+  font-size: 30px;
+  font-weight: 100;
+  color: rgb(110, 107, 107);
+  font-family: "Electrolize", sans-serif;
+}
+#header-imgs, #imgs{
+  height: 100%;
+}
+#icon-img {
+  height: 23px;
+  position: relative;
+  right: 10px;
+}
+#icon-img-tweet {
+  height: 30px;
+  position: relative;
+  top: 3px;
+  right: 10px;
+}
+#icon-img-link {
+  height: 24px;
+  position: relative;
+  right: 6px;
+}
+#header-contact {
+  background: black;
+  color: white;
+  padding: 13px;
+  border-radius: 40px;
+  font-weight: 600;
+  font-size: 10px;
+}
+#header-resume {
+  background: rgb(255, 255, 255);
+  padding: 13px;
+  border-radius: 40px;
+  font-weight: 600;
+  font-size: 10px;
+}
+/* portfolio */
+.portfolio {
+    width: 90%;
+    margin-left: 5%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 3%;
+    text-align: center;
+    color: rgb(103, 101, 98);
+    font-family: sans-serif;
+}
+.row-one, .row-two, .row-three {
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.about {
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+    background: linear-gradient(rgb(255, 255, 255), rgb(231, 238, 238));
+    border-bottom:10px ;
+}
+
+#sunnyside, #results ,#qr, #product, #clipboard, #summary, #nft, #stats {
+  border-radius: 20px;
+  height: 90%;
+}
+
+#sunnyside:hover, #results:hover ,#qr:hover, #product:hover, #clipboard:hover, #summary:hover, #nft:hover, #stats:hover {
+  opacity: 60%;
+  position: relative;
+  bottom: 10%;
+  size: 10%;
+}
+
+
+
+
+.full-text {
+    width: 50%;
+    margin-right: 10%;
+    color:  rgb(125, 123, 120) ;
+}
+.about-me {
+    font-size: 50px;
+    font-weight: 600;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.who{
+    font-size: 80px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(125, 123, 120);
+}
+/* line */
+#txt {
+    width: 60%;
+}
+#line-text{
+    background-color: rgb(66, 42, 42);
+    height: 130px;
+    width: 100%;
+    /* margin-left: 5%; */
+    margin-top: 7%;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.lined {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#line-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background:  rgb(66, 42, 42);
+    border: 5px solid  rgb(255, 255, 255);
+    position: relative;
+    bottom: 40px;
+}
+
+
+.footer {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  background-color: rgb(61, 36, 36);
+  text-align: center;
+  justify-content: center;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+#ff {
+  display: flex;
+  width: 70%;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+#none {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  position: relative;
+  bottom: 50%;
+}
+#non:hover,
+#none:hover {
+  color: rgb(13, 0, 255);
+}
+
+#non {
+  text-decoration: none;
+  color: black;
+}
+#non:hover {
+  color: red;
+}
+/* skills */
+.skills{
+  display: flex;
+  width: 100%;
+  margin-left: 1%;
+  text-align: center;
+
+}
+#pp {
+  font-size: 12px;
+  width: 90%;
+  font-family: sans-serif;
+  color: rgb(125, 123, 120);
+}
+#hp
+{
+  font-size: 16px;
+  font-family: "Electrolize", sans-serif;
+  width: 90%;
+  font-weight: 600;
+    color: rgb(83, 67, 42);
+}
+
+
+#htmlicn
+{
+height: 80px;
+position: relative;
+right: 5%;
+
+
+}
+#cssicn,#iconss {
+  height: 70px;
+  position: relative;
+  right: 5%;
+
+}
+
+@media (max-width:600px)
+{
+  .nav {
+    width: 95%;
+    margin-left: 2.5%;
+    height: 45px;
+  }
+  .logo {
+    width: 31%;
+  }
+  #logo-img {
+    height: 30px;
+    width: 30px;
+    top: 1px;
+  }
+  #logo-text {
+    font-size: 7px;
+  }
+  #light {
+    bottom: 1px;
+  }
+  .quick-links {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    font-size: 7px;
+    font-weight: 600;
+  }
+  
+  /* header */
+  header {
+    width: 100%;
+    height: 300px;
+    background: rgb(231, 238, 238);
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    margin-left: 0%;
+  }
+  .header-text {
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 2%;
+  }
+  .hello {
+   
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(110, 107, 107);
+    font-size: 10px;
+  }
+  .name {
+    font-size: 25px;
+  }
+  .header-light {
+    font-size: 10px;
+    font-weight: 100;
+    color: rgb(110, 107, 107);
+    font-family: "Electrolize", sans-serif;
+  }
+  #header-imgs,#imgs{
+    height: 70%;
+    position: relative;
+    top: 30%;
+  }
+ 
+  /* portfolio */
+  .portfolio {
+      width: 95%;
+      margin-left: 2.5%;
+    height: 300px;
+  }
+  .full-text {
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 10%;
+      color:   rgb(125, 123, 120)  ;
+  }
+  #full-img {
+    margin-top: 10%;
+    height: 250px;
+  }
+  .about {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  .about-me {
+      font-size: 30px; 
+  }
+  .who{
+      font-size: 50px;
+  }
+  /* line */
+  #txt {
+      width: 80%;
+  }
+  #line-text{
+      height: 50px;
+      font-size: 5.5px;
+  }
+  #line-img {
+      width: 50px;
+      height: 50px;
+      bottom: 20px;
+  }
+  
+  
+  .footer {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(61, 36, 36);
+    text-align: center;
+    justify-content: center;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 8px;
+  }
+  #ff {
+    display: flex;
+    width: 90%;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #none {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 50%;
+    font-size: 10px;
+  }
+
+  /* skills */
+  .skills{
+    width: 100%;
+    margin-left: 1%; 
+  }
+  #pp {
+    font-size: 6px;
+    width: 90%;
+    font-family: sans-serif;
+    color: rgb(125, 123, 120);
+  }
+  #hp
+  {
+    font-size: 8px;
+    font-family: "Electrolize", sans-serif;
+    width: 90%;
+    font-weight: 600;
+      color: rgb(83, 67, 42);
+  }
+  
+  
+  #htmlicn
+  {
+  height: 40px;
+  position: relative;
+  right: 5%;
+  
+  
+  }
+  #cssicn,#iconss {
+    height: 40px;
+    position: relative;
+    right: 5%;
+  
+  }
+}
+
+
+
+
+
+@media (min-width:601px) and (max-width:1200px)
+{
+  .nav {
+    width: 90%;
+    margin-left: 5%;
+    height: 75px;
+  }
+  .logo {
+    width: 22%;
+  }
+  #logo-img {
+    height: 50px;
+    width: 50px;
+    top: 10px;
+  }
+  #logo-text {
+    font-size: 15px;
+  }
+  #light {
+    font-size: 10px;
+    bottom: 3px;
+  }
+  .quick-links {
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  /* header */
+  header {
+    width: 90%;
+    height: 400px;
+    background: rgb(231, 238, 238);
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+  }
+  .header-text {
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 5%;
+  }
+  .hello {
+   
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(110, 107, 107);
+    font-size: 17px;
+  }
+  .name {
+    font-size: 45px;
+  }
+  .header-light {
+    font-size: 25px;
+    font-weight: 100;
+    color: rgb(110, 107, 107);
+    font-family: "Electrolize", sans-serif;
+  }
+  #header-imgs,#imgs{
+    height: 100%;
+  }
+ 
+  /* portfolio */
+  .portfolio {
+      width: 90%;
+      margin-left: 5%;
+    height: 500px;
+  }
+  .full-text {
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 10%;
+      color:   rgb(125, 123, 120)  ;
+  }
+  #full-img {
+    margin-top: 100%;
+    height: 350px;
+  }
+
+  .about-me {
+      font-size: 30px; 
+  }
+  .who{
+      font-size: 50px;
+  }
+  /* line */
+  #txt {
+      width: 80%;
+  }
+  #line-text{
+      height: 70px;
+      font-size: 10px;
+  }
+  #line-img {
+      width: 70px;
+      height: 70px;
+      bottom: 25px;
+  }
+  
+  
+  .footer {
+    height: 150px;
+    font-size: 13px;
+  }
+  #ff {
+    width: 80%;
+  }
+  #none {
+    font-size: 15px;
+  }
+
+  /* skills */
+  .skills{
+    width: 100%;
+    margin-left: 1%; 
+  }
+  #pp {
+    font-size: 10px;
+  }
+  #hp
+  {
+    font-size: 15px;
+  }
+  
+  
+  #htmlicn
+  {
+  height: 55px;
+  position: relative;
+  right: 5%;
+  
+  
+  }
+  #cssicn,#iconss {
+    height: 50px;
+    position: relative;
+    right: 5%;
+  
+  }
+}
